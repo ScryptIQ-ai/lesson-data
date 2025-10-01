@@ -1,0 +1,10 @@
+Welcome to L2D!
+We've learnt a lot so far, but is there more to come?
+ADAM: Absolutely! Today we're tackling file handling in Python. Think of files as Python's way of talking to the outside world—reading data in, writing results out. It's essential stuff.
+LAURENCE: Right, and we'll start simple with text files. Let's say you've got a file called notes.txt sitting in your project folder. To read it, you need three steps: open the file, read its contents, and close it when you're done.
+ADAM: The basic pattern involves opening the file in read mode—that's where you tell Python you're just looking, not changing anything. Then you read what's inside, and finally you close it up.
+LAURENCE: Now, you might be wondering: what if something goes wrong and the file doesn't close properly? That's where the with statement comes in. It's the safer, cleaner way to work with files.
+ADAM: Exactly. The with statement automatically handles closing the file, even if an error occurs. Once you're outside that block of code, the file's already closed. No memory leaks, no worries.
+LAURENCE: And you've got options for how you read the file. You can grab everything as one big chunk of text, get a single line at a time, or pull all the lines into a list where each line is a separate element.
+ADAM: That last option's particularly useful when you're processing data line by line—maybe you're analysing a log file or working through records one at a time.
+LAURENCE: So there you have it—reading text files in Python. Simple in concept, powerful in practice. Ready to give it a go?
